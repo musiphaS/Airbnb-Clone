@@ -156,16 +156,13 @@ nav {
 @media (max-width: 480px) {
 
   nav {
-    height: 35px;
+    height: 45px;
 }
   .main--container {
     padding: 0;
   }
   .card {
     margin: 5px;
-  }
-  .nav--logo {
-    padding: 0;
   }
   .banner--header {
     font-size: 18px;
@@ -176,6 +173,12 @@ nav {
   .banner--photo {
     max-width: 20em;
     margin: 2em auto;
+  }
+  .navbar-pic {
+    object-fit: none;
+  }
+  .nav--logo {
+    margin-bottom: 20px;
   }
   /* .card--image {
     height: 235px;
